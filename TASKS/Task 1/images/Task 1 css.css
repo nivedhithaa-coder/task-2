@@ -89,6 +89,43 @@ span{
 .line_through{
     text-decoration: line-through;
 }
+@media only screen and (max-width:768px){
+    .first_section{
+        padding: 0 20px;
+    }
+    .Menu_bar{
+        display:flex;
+        flex-direction: column;
+    }
+    .navs{
+        padding:0px;
+        position:absolute;
+        left:25%;
+        top:60px;
+    }
+    .nav_buttons{
+        display:flex;
+        justify-content: center;
+    }
+    .col{
+        margin-right: 10px;   
+    }
+    .login_details{
+        position:absolute;
+        right:0px;
+        top:30px;
+    }
+    .container{
+        column-gap: 10px;
+
+    }
+    .head_txt{
+        font-size: 8px;
+    }
+    .sub_txt{
+        font-size: 4px;
+    }
+}
 
 .first_section{
     background-color: var(--color_Section1);
@@ -566,6 +603,7 @@ hr{
         
     }
 
+/* MEDIA QUERIES */
 
     /* Hover - overlay book now
     .book{
