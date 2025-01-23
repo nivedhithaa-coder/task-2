@@ -1,0 +1,1 @@
+const sideBarList= document.getElementById("sidebar_list")

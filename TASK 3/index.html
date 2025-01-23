@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip Cards</title>
+    <link href="./style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aubrey&family=Jersey+10&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="h-screen">
+        <header class=" flex w-screen h-1/5 p-3.5 bg-emerald-600 mb-6 items-center justify-between">
+            <div class="flex">
+                <img class="logo" src="2-removebg-preview.png" alt="effect">
+                <!-- <h1 class="title relative text-5xl flex justify-center items-center">FLIP CARDS</h1> -->
+            </div> 
+            <div class="buttons flex justify-end gap-4">
+                <div>
+                    <h1>Rate the game: </h1>
+                    <span class="fa fa-star hover:bg-slate-200 checked"></span>
+                    <span class="fa fa-star hover:bg-slate-200 checked"></span>
+                    <span class="fa fa-star hover:bg-slate-200 checked"></span>
+                    <span class="fa fa-star hover:bg-slate-200"></span>
+                    <span class="fa fa-star hover:bg-slate-200"></span>
+                </div>
+                <button class="min-w-24 h-12 rounded-lg text-lg border-white border-2 ">Moves: <span id="moves">0</span></button>
+                <button id="restart" class="min-w-24 h-12 text-lg rounded-lg border-white border-2 hover:bg-green-100">Restart</button>
+            </div>
+        </header>
+        <section>
+            <div id="board" class="grid grid-cols-4 justify-items-center rounded-lg">
+
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="logic.js"></script>
+</body>
+</html>

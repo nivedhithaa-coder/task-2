@@ -1,0 +1,28 @@
+{
+    "data":[
+        {
+            "id":1,
+            "question":"What is HTML?",
+            "options":[
+                {
+                    "value":"Hyper Text Markup Language",
+                    "isCorrect":true
+                    
+                },
+                {
+                    "value":"Hyperlinks Markup Language",
+                    "isCorrect":false
+                },
+                {
+                    "value":"Hyper Tool Transfer Protocal",
+                    "isCorrect":false
+                },
+                {
+                    "value":"Hyper Tool Transfer Protocal",
+                    "isCorrect":false
+                }
+            ]
+        }
+    ]
+    
+}
