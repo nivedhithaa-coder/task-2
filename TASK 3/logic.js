@@ -44,7 +44,8 @@ function start_game(){
         board.push(row);
     }console.log(board);
     
-    setTimeout(hide_cards,1000);
+    //setTimeout(hide_cards,1000);
+    hide_cards();
 }
 function hide_cards(){
     for(let r=0;r<rows;r++)
