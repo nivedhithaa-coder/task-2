@@ -32,15 +32,9 @@ body,html{
     background-color: white;
     margin:2px;
 }
-
-/* .effect{
-    position:absolute;
-    left:38%;
-    top:20px;
-    width:50px;
-    height:50px;
-} */
-
+span:active{
+    color:orange;
+}
 /* MEDIA QUERIES */
 @media only screen and (max-width: 600px){
     #board{
@@ -63,10 +57,6 @@ body,html{
             font-size: 16px;
         }
     }
-    /* .effect{
-        visibility: hidden;
-    } */
-    
 }
 @media only screen and (min-width: 600px) {
     #board{
@@ -81,9 +71,6 @@ body,html{
     background-color: white;
     margin:1.5px;
     }
-    /* .effect{
-        visibility: hidden;
-    } */
 }
 @media only screen and (min-width: 768px) {
     #board{
@@ -98,14 +85,6 @@ body,html{
     background-color: white;
     margin:3.5px;
     }
-    /* .effect{
-        position:absolute;
-        left:400px;
-        top:25px;
-        width:25px;
-        height:25px;
-        visibility: visible;
-    } */
 }
 @media only screen and (min-width: 992px) {
     #board{
@@ -120,7 +99,4 @@ body,html{
     background-color: white;
     margin:1.5px;
     }
-}
-span:active{
-    color:orange;
 }
