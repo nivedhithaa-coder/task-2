@@ -1,0 +1,366 @@
+@media (max-width:1024px) and (min-width:768px) {
+
+    
+    .btn{
+        width:150px;
+        height:40px;
+        border-radius: 10px;
+        padding:10px;
+    }
+    .categories_container{
+        padding:0px 50px;
+        >.categories{
+            >.card{
+                height: 200px;
+        
+        }
+    }
+}
+#testimonials{
+    .box{
+        width:250px;
+        height:200px;
+        font-size: 10px;
+        }
+    .author_img{
+        width:50px;
+        height:50px;
+        position:absolute;
+        top:-25px;
+        left:45%;
+    }
+    .box1{
+        top:-25px;
+        left:35px;
+    }
+    .box2{
+        left:0px;
+        top:-50px;
+    }
+    .box3{
+        right:35px;
+        top:-25px;
+    }
+}
+.box{
+    width:375px;
+    height:200px;
+    font-size: 10px;
+    }
+.author_img{
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:-25px;
+    left:45%;
+}
+.logo{
+    >img{
+        height:100%;
+    }
+}
+.feedback{
+    width:700px;
+}
+.play{
+    height: calc(100vh - 300px);    
+}
+.radial_blur {
+    top: 100px;
+    right: -35px;
+    height:400px;
+    width:400px;
+}
+.form{
+    width:300px;
+    font-size: 10px;
+}
+.products-container {
+    padding:0px;
+    
+    .products-card {
+        background-color: var(--light_color);
+        height: 350px;
+        width:200px;
+        border-radius: 10px;
+        font-family: "Saira", serif;
+        
+        img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            height:50%;
+        }
+
+        .content {
+            padding: 10px;
+            
+        }
+    }
+}
+}
+
+@media (max-width:767px) and (min-width:640px) {
+    .header{
+        font-size: 12px;
+    }
+    .btn{
+        width:100px;
+        height:30px;
+        border-radius: 10px;
+        padding:5px;
+    }
+    .btn_hero{
+        min-width:100px;
+        height:20px;
+        border-radius: 10px;
+        padding:10px;
+        font-size:12px;
+    }
+    .radial_blur {
+        top: 120px;
+        right: -15px;
+        height:300px;
+        width:300px;
+    }
+    .products-container {
+        padding:0px;
+        
+        .products-card {
+            background-color: var(--light_color);
+            height: 350px;
+            width:200px;
+            border-radius: 10px;
+            font-family: "Saira", serif;
+            
+            img {
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                height:50%;
+            }
+    
+            .content {
+                padding: 10px;
+                
+            }
+        }
+    }
+    .review{
+        font-size: 8px;
+        font-weight: 100;
+    }
+    .form{
+        width:200px;
+        height:35px;.box{
+            width:500px;
+            height:200px;
+            background-color: var(--light_color);
+            color:var(--testimonial_txt);
+            box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+            font-size: 10px;
+            
+        }
+        .author_img{
+            width:50px;
+            height:50px;
+            position:absolute;
+            top:-25px;
+            left:45%;
+        }
+        font-size: 8px;
+        padding:0.5px;
+        border-radius: 20px;
+    }
+    .btn4{
+        width:75px;
+        height:35px;
+        border-radius: 10px;
+    }
+    .categories_container{
+        padding:0px 15px;
+        >.categories{
+            >.card{
+                height: 200px;
+        
+        }
+    }
+}
+.feedback {
+    width: 500px;
+    height: 255px;
+    >h6{
+        font-size: 10px;
+    }
+    >.input{
+        
+        width:300px;
+        height:40px;
+        font-size: 12px;
+        >button{
+            width:120px;
+            height:40px;
+            border-radius: 10px;
+        }
+        
+}
+}
+.play{
+    width:400px;
+}
+#testimonials{
+    .box{
+        width:200px;
+        height:180px;        
+        font-size: 10px;
+    }
+    .box1{
+        top:-25px;
+        left:35px;
+    }
+    .box2{
+        left:0px;
+        top:-50px;
+    }
+    .box3{
+        right:35px;
+        top:-25px;
+    }
+    .author_img{
+        width:50px;
+        height:50px;
+        position:absolute;
+        top:-25px;
+        left:45%;
+    }   
+}
+   
+}
+
+@media (max-width:639px) and (min-width:480px) {
+
+    .header{
+        font-size: 10px;
+        
+    }
+    .btn{
+        width:75px;
+        height:25px;
+        border-radius: 10px;
+        padding:5px;
+    }
+    .btn_hero{
+        min-width:100px;
+        height:20px;
+        border-radius: 10px;
+        padding:10px;
+        font-size:12px;
+    }
+    #pros{
+        padding:40px;
+    }
+    .content{
+        >h2{
+            font-style: 12px;
+        }
+        >p{
+            font-style: 5px;
+        }
+    }
+    #about{
+        font-size: 10px;
+    }
+    
+    .categories_container{
+        padding:0px 15px;
+        >.categories{
+            >.card{
+                height: 200px;
+        
+        }
+    }
+}
+.feedback {
+    width: 400px;
+    height: 150px;
+    >h6{
+        font-size: 8px;
+    }
+    >.input{
+        width:250px;
+        height:30px;
+        font-size: 8px;
+        >button{
+            width:80px;
+            height:30px;
+            border-radius: 10px;
+        }
+        
+}
+}
+    .radial_blur {
+        top: 120px;
+        right: -5px;
+        height:300px;
+        width:300px;
+    }
+    .form{
+        width:240px;
+        font-size: 8px;
+        height:35px;
+        >button{
+            width:50px;
+            >img{
+                width:15px;
+                height:auto;
+            }
+        }   
+     }
+    .btn4{
+        width:15px;
+        height:30px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+    .review{
+        font-size: 7px;
+        font-weight: 100;
+    }
+    .brand_image{
+        height:20px;
+        width:80px;
+    }
+    #testimonials{
+        .box{
+            width:180px;
+            height:175px;
+            font-size: 8px;
+        }
+        .box1{
+            position:relative;
+            top:-25px;
+            left:35px;
+            z-index:1;
+            box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+        }
+        .box2{
+            position:relative;
+            left:0px;
+            top:-50px;
+            z-index:1;
+            box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+        }
+        .box3{
+            right:35px;
+            top:-25px;
+            z-index:0;
+        }
+        .author_img{
+            width:35px;
+            height:35px;
+            position:absolute;
+            top:-15px;
+            left:40%;
+        }
+    }
+    
+    
+}
